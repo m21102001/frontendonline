@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./std.css">
+
+    <style>
+        .body {
+            /* background:url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/495px-Flower_poster_2.jpg"); */
+            background: gray;
+        }
+
+        /* padding */
+        /* margin */
+        .name {
+            font-size: 45px;
+            font-weight: 900;
+            font-family: cursive;
+            border: 10px solid red;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 25px;
+
+        }
+
+        /* (width == height) ?  circale : shape */
+
+        .table {
+            background-color: black;
+            /* background: red; */
+            color: white;
+            /* font */
+            font-size: 25px;
+            /* font-weight: ;
+
+            lighter 100
+            light  200 -400
+            normal 500
+            semibold 700
+            bold 800 
+            bolder 900
+
+            100
+            200
+            300
+            400
+            500
+            600
+            700
+            800
+            900
+
+
+            */
+            font-weight: bold;
+        }
+
+        .table-body {
+            font-weight: 100;
+        }
+
+        .circale {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <!-- form input label -->
+
+    <!-- {name,email,password} -->
+
+    <form>
+        <!-- name -->
+        <div class="name">
+
+            <label>Name</label>
+            <input type="text" placeholder=" ahmed mohamed" required>
+        </div>
+        <br>
+        <!-- ahmed@gmail.com -->
+        <label> please enter your email</label>
+        <input type="email" placeholder="example@gmail.com" required>
+        <!--
+             email  kjskjsdk  @  fjdkdfjfdk 
+            ahmed @ gmail.com
+            .... @   ....
+
+        -->
+
+        <br>
+        <!-- password -->
+        <label>please enter your password</label>
+        <input type="password" placeholder="password" value="45678" required>
+
+        <br>
+        <label for=""> uplaod file</label>
+        <input type="file" name="" id="">
+
+        <br>
+        <input type="checkbox">
+        <br>
+        <label for="">male</label>
+        <input type="radio" value="maile">
+        <label for="">femaile</label>
+        <input type="radio" value="female">
+        <br>
+        <select name="" id="" onchange="">
+            <option value="">select1</option>
+            <option value="">select2</option>
+            <option value="">select3</option>
+            <option value="">select4</option>
+            <option value="">select5</option>
+            <option value="">select6</option>
+
+        </select>
+
+        <label for=""> date time</label>
+        <input type="time" name="" id="">
+        <!-- <input type="button" value="submit"> -->
+
+        <button type="submit">submit</button>
+    </form>
+
+    <table>
+        <tr>
+            <th>name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>ahmed</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+
+
+    <table class="table">
+        <thead>
+            <th>id</th>
+            <th>name</th>
+            <th>email</th>
+        </thead>
+        <tbody class="table-body">
+            <tr>
+                <td>1</td>
+                <td>ahmed</td>
+                <td>ahemd@gamil</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ahmed</td>
+                <td>ahemd@gamil</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ahmed</td>
+                <td>ahemd@gamil</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="circale"></div>
+</body>
+
+</html>
